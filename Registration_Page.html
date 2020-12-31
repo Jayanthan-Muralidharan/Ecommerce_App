@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+    <div class="container">
+    <div class="container" id=main>
+        <div class="row">
+            <div class="col-md-12">
+                <!---form-->
+                <form action="/action_page.php">
+                    <!---form group-->
+                    <div class="form-group">
+                        <label for="">Name</label>
+                    <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-custom">@</span>
+                    </div>
+                        <input type="text" class="form-control" placeholder="your name" id="usr" name="name">
+                    </div>
+                    </div>
+                    <!---form group-->
+                    <div class="form-group">
+                        <label for="">Email</label>
+                    <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-custom"><i class="fa fa-envelope"></i></span>
+                    </div>
+                        <input type="text" class="form-control" placeholder="your email" id="ema" name="email">
+                    </div>
+                    </div>
+                    <!---form group-->
+                    <div class="form-group">
+                        <label for="">Mobile</label>
+                    <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-custom"><i class="fa fa-address-book-o"></i></span>
+                    </div>
+                        <input type="text" class="form-control" placeholder="your mobile no" id="ema" name="mobile">
+                    </div>
+                    </div>
+                    <!---form group-->
+                    <div class="form-group">
+                        <label for="">Password</label>
+                    <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-custom"><i class="fa fa-key"></i></span>
+                    </div>
+                        <input type="text" class="form-control" placeholder="your new password" id="pass" name="password">
+                    </div>
+                    </div>
+                    <!---form group-->
+                    <div class="form-group">
+                        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+                 <!---form closed-->
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
